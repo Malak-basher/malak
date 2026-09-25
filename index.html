@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="البروفايل الشخصي للمهندسة ملاك بشير - مصممة ومهندسة ويب">
+    <meta name="keywords" content="ملاك بشير, HTML5, CSS3, JavaScript, Portfolio, تصميم ويب">
+    <meta name="author" content="ملاك بشير">
+    <meta name="robots" content="index, follow">
+    <title>المهندسة ملاك بشير | البروفايل الشخصي</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- الهيدر الرئيسي -->
+    <header id="home">
+        <img src="images/logo.png" alt="شعار الموقع" width="80">
+        <h1>المهندسة ملاك بشير</h1>
+        <p>مصممة ومطورة ويب | تقنية معلومات</p>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav>
+        <a href="#about">نبذة</a>
+        <a href="#services">الخدمات</a>
+        <a href="#portfolio">الشهادات</a>
+        <a href="#skills">المهارات</a>
+        <a href="#education">التعليم</a>
+        <a href="#experience">الخبرات</a>
+        <a href="#contact">التواصل</a>
+    </nav>
+
+    <!-- المحتوى الرئيسي -->
+    <main>
+        <!-- قسم الترحيب -->
+        <section id="hero">
+            <img src="images/profile.jpg.png" alt="الصورة الشخصية" width="180">
+            <h2>مرحباً بكم</h2>
+            <p>هذا هو البروفايل الشخصي الخاص بي</p>
+            <a href="#contact" class="btn">تواصل معي</a>
+        </section>
+
+        <!-- قسم نبذة عني -->
+        <section id="about">
+            <h2>نبذة عني</h2>
+            <p>طالبة تقنيات معلومات مهتمه بتطوبر الويب والبرمجة واسعى لتطوير مهاراتي وتحويل الافكار الى مشاريع رقمية عملية ومنظمة.</p>
+        </section>
+
+         <!-- الخدمات -->
+        <section id="services">
+
+            <h2>الخدمات</h2>
+
+            <div class="services-container">
+
+                <article>
+
+                    <h3>تصميم المواقع</h3>
+
+                    <p>
+                        تصميم واجهات حديثة وتجربة مستخدم
+                        مناسبة لمختلف الأجهزة.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <h3>تطوير الويب</h3>
+
+                    <p>
+                        إنشاء صفحات ويب باستخدام
+                        HTML وCSS وJavaScript.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <h3>تحسين المواقع</h3>
+
+                    <p>
+                        تنظيم محتوى وتصميم المواقع
+                        لتحسين وضوحها وسهولة استخدامها.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- قسم الشهادات والاعتمادات -->
+        <section id="portfolio">
+            <h2>الشهادات والاعتماد</h2>
+            <figure>
+                <img src="images/certificate.png" alt="شهادة تطوير الويب SoloLearn" style="max-width: 100%; border-radius: 8px;">
+                <figcaption>شهادة إتمام دورة تطوير الويب من منصة SoloLearn</figcaption>
+            </figure>
+        </section>
+
+        <!-- قسم المهارات -->
+        <section id="skills">
+            <h2>المهارات</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>المهارة</th>
+                        <th>المستوى</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>75%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- قسم التعليم -->
+        <section id="education">
+            <h2>التعليم</h2>
+            <ul>
+                <li>طالبة تقنية معلومات - المستوى الثاني - معهد الصماد التقني الصناعي</li>
+            </ul>
+        </section>
+
+        <!-- قسم الخبرات -->
+        <section id="experience">
+            <h2>الخبرات</h2>
+            <ol>
+                <li>تطوير واجهات ويب تفاعلية ومستجيبة</li>
+                <li>تصميم وتنسيق البروفايلات الرقمية</li>
+                <li>تصميم واجهات محتوى رقمي</li>
+                <li>إنشاء وتنظيم قواعد بيانات بإستخدام Access</li>
+
+            </ol>
+        </section>
+
+        <!-- قسم التواصل -->
+        <section id="contact">
+            <h2>التواصل</h2>
+            <form id="contactForm" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">الاسم</label>
+                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك ">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">الخدمة المطلوبة</label>
+                    <select id="service" name="service">
+                        <option value="تصميم">تصميم موقع</option>
+                        <option value="برمجة">برمجة وتطوير</option>
+                        <option value="استشارة">استشارة تقنية</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">الرسالة</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="اكتب رسالتك هنا..."></textarea>
+                </div>
+
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+        </section>
+
+        <!-- الشريط الجانبي روابط سريعة -->
+        <aside>
+            <h3>روابط سريعة</h3>
+            <a href="#">GitHub</a>
+            
+            
+        </aside>
+
+    </main>
+
+     
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2026 المهندسة ملاك بشير - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <!-- ربط ملف التفاعل الجافاسكريبت -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
